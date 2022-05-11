@@ -22,7 +22,7 @@ public  class Main
         }
         System.out.println(mul);
         
-        //1+ 1/3^2 harmonische reihe
+        //1+ 1/3^2/// harmonische reihe
         double reihe =0;
         for(int i=0;i<=10;i++)
         {
