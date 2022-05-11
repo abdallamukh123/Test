@@ -1,4 +1,4 @@
-
+import static java.lang.Math.*;
 public  class Main
 {
     /*
@@ -21,5 +21,13 @@ public  class Main
             mul *= i;
         }
         System.out.println(mul);
+        
+        //1+ 1/3^2 harmonische reihe
+        double reihe =0;
+        for(int i=0;i<=10;i++)
+        {
+            reihe+=1/pow(i, 2);
+        }
+        System.out.println(reihe);
     }
 }
